@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -24,7 +24,7 @@ h1 {
     margin-bottom: 50px;
 }
 
-#search-todo {
+#search-text {
     border-radius: 4px;
     border: none;
     padding: 6px;
@@ -45,17 +45,17 @@ label:hover {
     margin-bottom: 50px;
 }
 
-#todo-form {
+#new-todo {
     text-align: center;
 }
 
-#todo-form input {
+#new-todo input {
     border-radius: 4px;
     border: none;
     padding: 6px;
 }
 
-#todo-form button {
+#new-todo button {
     width: 3rem;
     height: 3rem;
     padding: 2px;

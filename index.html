@@ -3,23 +3,25 @@
 <html>
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>Todos</h1>
         <div id="filter-input-group">
-            <input id="search-todo" type="text" placeholder="Filter todos">
+            <input id="search-text" type="text" placeholder="Filter todos">
             <label>
                 <input id="hide-completed" type="checkbox"> Hide completed 
             </label>
         </div>
         <div id="todos"></div>
-        <form id="todo-form">
+        <form id="new-todo">
             <input type="text" placeholder="Type your todo here" name="newTodo">
             <button>Add</button>
         </form>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuidv4.min.js"></script>
+        <script src="todo-functions.js"></script>
         <script src="todo-app.js"></script>
     </body>
 </html>
