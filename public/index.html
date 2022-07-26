@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>To-do App</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="images/favicon.png" rel="icon" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1 class="header__title">To-do App</h1>
+        <h2 class="header__subtitle">What do you need to do?</h2>
+      </div>
+    </div>
+
+    <div class="actions">
+      <div class="actions__container">
+        <input
+          id="search-text"
+          class="input"
+          type="text"
+          placeholder="Filter todos"
+        />
+        <label class="checkbox">
+          <input id="hide-completed" type="checkbox" /> Hide completed
+        </label>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="todos"></div>
+      <form id="new-todo">
+        <input
+          type="text"
+          class="input"
+          placeholder="Type your todo here"
+          name="newTodo"
+        />
+        <button class="button">Add</button>
+      </form>
+    </div>
+
+    <script src="/scripts/bundle.js"></script>
+  </body>
+</html>
